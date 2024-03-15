@@ -1,0 +1,17 @@
+package com.cdac;
+import java.util.Scanner;
+
+public class Program5 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter thr character: ");
+		String c = sc.nextLine();
+
+		if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
+		{
+			
+		}
+	}
+
+}

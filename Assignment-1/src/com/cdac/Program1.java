@@ -1,0 +1,34 @@
+package com.cdac;
+import java.util.Scanner;
+
+public class Program1 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in); 
+		System.out.println("Enter a grade in numbers: ");
+		int grade = sc.nextInt();
+		sc.close();
+		
+		if(grade>80)
+		{
+			System.out.println("A-Grade");
+		}
+		else if(grade>60 && grade<=80)
+		{
+			System.out.println("B-Grade");
+		}
+		else if(grade>40 && grade<=60)
+		{
+			System.out.println("C-Grade");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+		
+
+	}
+
+}
